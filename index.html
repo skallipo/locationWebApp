@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=no"" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="titleGroup">
+      <h1>Roadside Assistance Request</h1>
+    </div>
+    <div class="buttonGroup">
+      <button class="btn" onClick="findMe()" type="button">
+        <h3>Find My Location</h3>
+      </button>
+      <button class="btn" onclick="requestAssistance()" type="button">
+        <h3>Request Assistance</h3>
+      </button>
+    </div>
+    <div id="map"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
